@@ -1,9 +1,11 @@
 .btn {
-    @apply px-6 py-2.5 mx-2 font-semibold transition-all focus:bg-opacity-80 rounded-sm hover:bg-opacity-90 text-white
+    @apply px-6 py-2 mx-2 font-semibold transition-all focus:bg-opacity-80 rounded-sm hover:bg-opacity-90 text-white
 }
+
 .btn-outlined {
     @apply btn bg-transparent border-solid border
 }
+
 .btn-primary {
     @apply btn bg-primary-500
 }
@@ -43,4 +45,16 @@
 
 .btn-danger{
     @apply btn bg-danger-500
+}
+
+.btn-small{
+    @apply text-sm
+}
+
+.btn-medium{
+    @apply text-base
+}
+
+.btn-large{
+    @apply text-lg
 }
