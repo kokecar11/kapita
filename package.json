@@ -1,0 +1,41 @@
+{
+  "name": "kapita",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "pnpm --filter @kapita/docs",
+    "docs:dev": "pnpm --filter @kapita/docs run dev",
+    "docs:build": "pnpm --filter @kapita/docs run build",
+    "tailwind-config": "pnpm --filter @kapita/tailwind-config",
+    "ui": "pnpm --filter @kapita/kapita-ui",
+    "ui:dev": "pnpm --filter @kapita/kapita-ui run dev",
+    "ui:build": "pnpm --filter @kapita/kapita-ui run build",
+    "ui:build.lib": "pnpm --filter @kapita/kapita-ui run build.lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@builder.io/qwik": "latest",
+    "@builder.io/qwik-city": "latest",
+    "@kapita/tailwind-config": "workspace:*",
+    "@kapita/kapita-ui": "workspace:*",
+    "@kapita/docs": "workspace:*",
+    "@types/eslint": "8.37.0",
+    "@types/node": "^18.16.3",
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.39.0",
+    "eslint-plugin-qwik": "latest",
+    "np": "7.6.1",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4",
+    "undici": "5.22.0",
+    "vite": "4.3.3",
+    "vite-tsconfig-paths": "4.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+.card{
+    @apply max-w-sm rounded-sm p-6 bg-white shadow-lg dark:bg-primary-800
+}
+.card-title{
+    @apply mb-2 text-2xl font-bold tracking-tight text-primary-500 dark:text-white
+}
+.card-content{
+    @apply mb-3 text-primary-500 text-opacity-70 dark:text-white dark:text-opacity-90
+}

@@ -1,0 +1,1 @@
+module.exports = require("@kapita/tailwind-config/postcss.config.cjs");
